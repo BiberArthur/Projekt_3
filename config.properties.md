@@ -1,0 +1,4 @@
+browser=chrome
+# Or for Yandex.Browser
+# browser=yandex
+base.url=https://stellarburgers.nomoreparties.site
