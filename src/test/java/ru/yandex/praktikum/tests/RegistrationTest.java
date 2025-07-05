@@ -56,7 +56,7 @@ public class RegistrationTest {
         Assert.assertTrue("The ‘Login’ button is not displayed after successful registration!",
                 driver.findElement(objForRegistrationPage.getLoginOKLocator()).isDisplayed());
 
-        System.out.println("Пользователь успешно зарегистрирован.");
+        System.out.println("User successfully registered.");
     }
 
     @Test

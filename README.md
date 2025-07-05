@@ -23,11 +23,11 @@ Das Projekt ist modular aufgebaut und ermöglicht eine einfache Erweiterung um n
 3. Repository auf die lokale Maschine klonen:
 
 ```bash
-git clone https://github.com/BiberArthur/Projekt_2.git
+git clone https://github.com/BiberArthur/Projekt_3.git
 ```
-4. Abhängigkeiten installieren (falls Maven genutzt wird)**:
+4. Abhängigkeiten installieren (falls Maven genutzt wird):
 
-  - Das Projekt benutzt Maven. Stellen Sie sicher, dass Maven installiert ist und führen Sie:
+  - Das Projekt benutzt Maven. Stellen Sie sicher, dass Maven installiert ist und führen Sie aus:
 ```bash 
 mvn clean install
 ```
