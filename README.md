@@ -1,4 +1,4 @@
-# QA_API_Tests
+# ST_UI_Tests
 
 Dieses Projekt enthält automatisierte Tests für eine RESTful API, die Benutzer- und Auftragsendpunkte verwaltet. Die Tests decken sowohl positive als auch negative Szenarien ab und überprüfen die Funktionalität der wichtigsten HTTP-Methoden (GET, POST, PUT, DELETE).  
 Ziel ist es, die Zuverlässigkeit und Stabilität der API durch systematische Testfälle sicherzustellen. Die Tests wurden mit Java, JUnit und Rest Assured umgesetzt und verwenden Java Faker zur Generierung realistischer Testdaten.  
