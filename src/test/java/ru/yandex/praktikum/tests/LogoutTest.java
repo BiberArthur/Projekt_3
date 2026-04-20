@@ -1,5 +1,4 @@
 package ru.yandex.praktikum.tests;
-
 import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Assert;
@@ -16,9 +15,10 @@ import ru.yandex.praktikum.model.api.LoginRequest;
 import ru.yandex.praktikum.model.api.DeleteUserRequest;
 import ru.yandex.praktikum.base.apis.UserApi;
 import com.github.javafaker.Faker;
-
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+
+
 
 public class LogoutTest {
 
@@ -32,6 +32,7 @@ public class LogoutTest {
 
     @Before
     public void openPage() {
+
         configLoader = new ConfigLoader();
         String browser = configLoader.getBrowser();
         driver = WebDriverFactory.createDriver(browser);
@@ -51,6 +52,7 @@ public class LogoutTest {
         // Log in and get the tokens
         LoginRequest loginRequest = new LoginRequest(uniqueEmail, password);
         accessToken = userApi.loginAndGetTokens(loginRequest)[0]; // Save the access token
+
     }
 
     @Test
